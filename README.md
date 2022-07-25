@@ -47,8 +47,11 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Gatsby Cloud)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+## URL Architecture
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+We use the following URL structure for the application
+* / will be the home page
+* /events will be where the group's events will be posted. /events/page_name/ is where you can view each individual event entry and further details
+* /team will be where the team's roster and information will be.
+* /contact will be the contact us page.
