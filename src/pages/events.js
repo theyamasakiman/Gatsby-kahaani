@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 // ...
 const EventsPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="Events">
       <ul>
       {
          data.allMdx.nodes.map((node) => (
